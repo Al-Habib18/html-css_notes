@@ -1,0 +1,29 @@
+This file contains about of some CSS SELECTORS.
+ 
+No.        Name                                 Meaning                                            Example             
+1.   Universal Selector             Applies to all elements in the documents                        * { }
+.................................................................................................................
+2.  Type Selector                   Matching elements names                                         h1,h2,h3{}     
+.................................................................................................................
+3.  Class Selector                  Matches an element whose class attribute
+                                    Matches the one specified afted the period
+                                    (or full stop) symbol                                          .note{ }
+ ...............................................................................................................                   
+4.  ID Selector                     Matches an element whose ID attribute has
+                                    a value matches the one specified afted the 
+                                    pound (or hash) symbol                                          #introduc{}
+................................................................................................................
+5.  Child Selector                  Matches an element that is a direct Child
+                                    of another                                                     li > a {}
+................................................................................................................
+6. Descendant Selector              Matches an element that is a descendant
+                                    of another specified element(not just a
+                                    direct child of that element)                                  p a{ }
+................................................................................................................
+7.  Adjacent Selector               Matches an element that is the next sibling
+                                    of another.                                                    h1+p{ }
+.............................................................................................................                                    
+8.  General sibling                 Matches an element that is a sibling another
+    Selector                        althougt it does not have to be the directly                   h1~p{ }
+                                    preceding element
+.............................................................................................................
